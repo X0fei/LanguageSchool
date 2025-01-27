@@ -6,6 +6,7 @@
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>  <!--Настройка для создания XML-документации.-->
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,5 +25,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
+    <AvaloniaResource Include="Assets\**" />  <!--Добавление содержимого папки Assets в проект как ресурсы Avalonia.-->
   </ItemGroup>
 </Project>
