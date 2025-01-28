@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace LanguageSchool
+namespace LanguageSchool.Views
 {
     /// <summary>
     /// Класс окна входа.
