@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="LanguageSchool/App.axaml" value="LanguageSchool/LanguageSchool.csproj" />
+        <entry key="LanguageSchool/MainWindow.axaml" value="LanguageSchool/LanguageSchool.csproj" />
+        <entry key="LanguageSchool/Views/MainWindow.axaml" value="LanguageSchool/LanguageSchool.csproj" />
+        <entry key="LanguageSchool/Views/ServicesWindow.axaml" value="LanguageSchool/LanguageSchool.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
