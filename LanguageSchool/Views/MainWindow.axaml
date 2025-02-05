@@ -15,19 +15,25 @@
                 <TextBlock
                     Text="Школа языков &quot;Леарн&quot;"
                     FontSize="20"
+					HorizontalAlignment="Center"
                     Margin="10">
                 </TextBlock>
                 <TextBox
                     Name="LoginTextBox"
+					TextChanged="TextBox_TextChanged"
                     Watermark="Логин"
-                    Margin="0 0 0  5"/>
+                    Margin="0 0 0 5"/>
                 <TextBox
                     Name="PasswordTextBox"
+					TextChanged="TextBox_TextChanged"
                     Watermark="Пароль"
-                    Margin="0 0 0  5"/>
+					PasswordChar="*"
+                    Margin="0 0 0 5"/>
                 <Button
                     Name="LogInButton"
+					Click="LogInButton_Click"
                     Content="Вход"
+					IsEnabled="False"
                     HorizontalAlignment="Center"/>
         </StackPanel>
 </Window>
