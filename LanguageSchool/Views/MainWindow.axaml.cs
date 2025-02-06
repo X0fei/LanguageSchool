@@ -16,7 +16,7 @@ namespace LanguageSchool.Views
             InitializeComponent();
         }
 
-        private async void LogInButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+        private void LogInButton_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
             var user = UserService.GetUser(LoginTextBox.Text);
 
