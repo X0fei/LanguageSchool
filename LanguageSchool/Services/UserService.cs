@@ -25,7 +25,7 @@ namespace LanguageSchool.Services
         /// <returns>
         /// Объект <see cref="User"/>, если пользователь найден; в противном случае — <c>null</c>.
         /// </returns>
-        public static User? GetUser(string username)
+        public static User? GetUser(string? username)
         {
             return _users.FirstOrDefault(u => u.Username == username);
         }
